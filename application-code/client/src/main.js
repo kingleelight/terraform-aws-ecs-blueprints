@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 import Vue from 'vue'
-import App from './App.vue'
+import App from './Main.vue'
 import router from './router'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'

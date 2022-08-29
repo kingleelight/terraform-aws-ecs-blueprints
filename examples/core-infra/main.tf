@@ -96,7 +96,7 @@ resource "aws_service_discovery_private_dns_namespace" "sd_namespaces" {
 ################################################################################
 
 resource "aws_iam_role" "execution" {
-  name               = "${local.name}-execution"
+  name = "${local.name}-execution"
   assume_role_policy = data.aws_iam_policy_document.execution.json
   # managed_policy_arns = local.task_execution_role_managed_policy_arn
   tags = local.tags
